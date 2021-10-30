@@ -1,6 +1,5 @@
 from bot import BOT_TOKEN
-from .plugins.commands import start_msg
-from .plugins.f import text_message
+from .plugins import text_message, start_msg
 from telegram.ext import (
     Updater,
     CommandHandler,

@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-def env(name: str, terminal_action: bool = True):
+def get_env(name: str, terminal_action: bool = True):
     """
     Get environment variables or you can input your variables into the terminal.
     """

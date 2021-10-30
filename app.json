@@ -1,0 +1,17 @@
+{
+  "name": "Guesslang Telegram",
+  "description": "",
+  "repository": "https://github.com/Empty-World/guesslang-telegram-bot/",
+  "keywords": ["telegram"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Bot token from @Botfather",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
